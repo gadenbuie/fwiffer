@@ -47,8 +47,9 @@ Then choose the RStudio addin of your choice:
 And get back the `readr::read_fwf()` code you need. Edit the names in
 `col_names` and move on with your day\!
 
+### Column Widths
+
 ``` r
-## Column Widths
 col_widths <- c(20, 10, 11)
 col_names <- c("X01", "X02", "X03")
 readr::read_fwf("inst/fwf-sample.txt", readr::fwf_widths(col_widths, col_names))
@@ -68,8 +69,9 @@ readr::read_fwf("inst/fwf-sample.txt", readr::fwf_widths(col_widths, col_names))
     ## 2 Mary Hartford CA    319-Z19-434
     ## 3 Evan Nolan    IL    219-532-c30
 
+### Column Start/End
+
 ``` r
-## Column Start/End
 col_starts <- c(1, 21, 31)
 col_ends <- c(20, 30, 42)
 col_names <- c("X01", "X02", "X03")
