@@ -16,8 +16,8 @@
 </center>
 
 Getting column positions and widths for parsing fixed width file formats
-is painful. Tape measures are dangerous and useless for measuring
-columns widths. If your data is stored in fixed width files but
+is painful. Tape measures are dangerous and useless for measuring column
+widths. If your data is stored in fixed width files but
 `readr::read_fwf()` can’t guess the column widths, then you need a new
 tool.
 
