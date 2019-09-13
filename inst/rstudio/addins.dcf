@@ -1,0 +1,9 @@
+Name: Cursors to Column Widths
+Description: Fixed Width File Format Definition From Cursors
+Binding: get_col_widths
+Interactive: false
+
+Name: Cursors to Column Start/End
+Description: Fixed Width File Format Definition From Cursors
+Binding: get_col_start_end
+Interactive: false
